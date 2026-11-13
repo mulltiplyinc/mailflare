@@ -1,0 +1,80 @@
+/* Values copied from mulltiply.ai's marketing/404.html. */
+.page {
+	min-height: 100dvh;
+	box-sizing: border-box;
+	background: #f4f6fb;
+	color: #0c101a;
+	display: grid;
+	place-items: center;
+	padding: 24px;
+}
+
+.card {
+	width: 100%;
+	max-width: 640px;
+	background: #fff;
+	border: 1px solid #dce4f1;
+	border-radius: 18px;
+	padding: clamp(24px, 6vw, 48px);
+}
+
+.brand {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 32px;
+}
+
+.brand img {
+	max-width: 100%;
+	height: auto;
+}
+
+.code {
+	color: #5b52db;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+}
+
+.card h1 {
+	font-size: clamp(26px, 5vw, 38px);
+	font-weight: 700;
+	line-height: 1.35;
+	margin: 12px 0 18px;
+}
+
+.card p {
+	line-height: 1.7;
+	color: #414b5d;
+}
+
+.card nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-top: 28px;
+}
+
+.card nav a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 44px;
+	padding: 10px 18px;
+	border: 1px solid #5b52db;
+	border-radius: 8px;
+	color: #443abd;
+	text-decoration: none;
+	font-weight: 600;
+	overflow-wrap: anywhere;
+}
+
+.card nav a:first-child {
+	background: #5b52db;
+	color: #fff;
+}
+
+.card a:focus-visible {
+	outline: 3px solid #1d8fa3;
+	outline-offset: 4px;
+}
